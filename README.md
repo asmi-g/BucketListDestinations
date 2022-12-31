@@ -1,3 +1,8 @@
+BucketListDestinations WebPage:
+
+This webpage displays personal bucket list destinations, using ReactJS. It utilizes props in JSX components, along with the array.map method to take in a js file with an array of objects, and render that to the screen. This project has helped me improve my front-end development skills, as it has taught me how to avoid hard-coding information directly into the HTML.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
