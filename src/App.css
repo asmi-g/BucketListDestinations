@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  margin-bottom: 50px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner{
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #F55A5A;
+  color:  #FFFFFF;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.banner--text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: -0.05em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.globe-icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.destination--text{
+  display: flex;
+  margin-left: 50px;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 700px;
+  align-self: center;
+  
+}
+
+.destination{
+  display: flex;
+  margin-left: 70px;
+}
+
+.destination--pic{
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.destination--location{
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.destination--link{
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  letter-spacing: 0em;
+  color: #918E9B;
+
+}
+
+.destination--title{
+  margin: 0;
+  margin-top: 20px;
+}
+
+.destination--date{
+  margin: 0;
+  margin-top: 20px;
+}
+
+.destination--description{
+  margin: 0;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.pin{
+  padding: 0;
+  height: 15px;
 }
